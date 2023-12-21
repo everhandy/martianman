@@ -97,7 +97,7 @@ window.addEventListener('load', function(){
             this.image = document.getElementById('backgroundImage');
             this.x = 0;
             this.y = 0;
-            this.width = 9000;
+            this.width = 15000;
             this.height = 720;
             this.speed = 5;
         }
@@ -280,7 +280,7 @@ window.addEventListener('load', function(){
     let lastTime = 0;
     let enemyTimer = 0;
     let enemyInterval = 1000;
-    let randomEnemyInterval = Math.random() * 5000 + 1000;
+    let randomEnemyInterval = Math.random() * 5000;
     let scoreRate = .001; //points per millisecond
 
     function animate(timeStamp){
